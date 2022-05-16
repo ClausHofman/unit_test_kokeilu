@@ -15,7 +15,8 @@ class Henkilo2:
 
     @property
     def nimi(self):
-        return self.etunimi + " " + self.sukunimi
+        return f"{self.etunimi} {self.sukunimi}"
+        return "{self.etunimi} {self.sukunimi}"
 
     @property
     def ika(self):
